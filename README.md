@@ -1,15 +1,15 @@
 # xnx3_tld
 jsp页面常用tld标签，如时间戳转时间描述，字符串限定输出长度等
 
-## 1.使用前提
-##### 1.1项目中导入jar包： xnx3.jar 、 xnx3_tld.jar
-##### 1.2JSP页面顶部引入 
+## 1. 使用前提
+##### 1.1 项目中导入jar包： xnx3.jar 、 xnx3_tld.jar
+##### 1.2 JSP页面顶部引入 
 ````Java
 <%@ taglib uri="http://www.xnx3.com/java_xnx3/xnx3_tld" prefix="x" %>
 ````
 
 
-## 2.JSP页面中标签功能及使用说明
+## 2. JSP页面中标签功能及使用说明
 ##### 将10位/13位时间戳转化为 月-日 时:分 显示出来
 ````Java
 <x:time linuxTime="${log.logtime }" format="MM-dd HH:mm"></x:time>
