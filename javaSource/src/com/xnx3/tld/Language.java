@@ -4,12 +4,13 @@ import java.io.IOException;
 import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.JspWriter;
 import javax.servlet.jsp.tagext.TagSupport;
-import com.xnx3.j2ee.Global;
 
 /**
  * 调用语言包显示
+ * <br/>已弃用
  * <br/>需配合iw.jar ( https://github.com/xnx3/iw )
  * @author 管雷鸣
+ * @deprecated
  */
 public class Language extends TagSupport {
 	private String key;		//要调用的语言文字的key值

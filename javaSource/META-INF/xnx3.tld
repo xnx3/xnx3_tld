@@ -19,7 +19,7 @@
  	<attribute>
  		<name>format</name>
  		<required>false</required>
- 		<description>转换格式 ,若不填，默认为yyyy-MM-dd hh:mm:ss</description>
+ 		<description>转换格式 ,若不填，默认为yyyy-MM-dd HH:mm:ss</description>
  	</attribute>
  </tag>
  
